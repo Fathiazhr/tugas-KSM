@@ -1,0 +1,79 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.container {
+    background: border-box;
+    border-color: transparent;
+}
+
+.content {
+    max-width: 650px;
+}
+
+form {
+    font-family: 'Montserrat';
+}    
+
+table{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 60%;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+}
+th, td, input, p{
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+tr, td{
+    padding: 5px;
+}
+td{
+    font-weight: bold;
+}
+input{
+    width: 200px;
+    height: 25px;
+}
+h3{
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    padding-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    color: #DF2E2E;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.hasilData{
+    padding-left: 100px;
+    width: 40%;
+    text-align: left;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+.btn{
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #141E61;
+    color: white;
+    font-family:  'Montserrat';
+    text-decoration: none;
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn:hover {
+    color: #FFEF78;
+}
